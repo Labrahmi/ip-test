@@ -1,0 +1,96 @@
+
+
+/* my presets */
+
+.cpy-1{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.cpy-2{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.cpy-3{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.cpx-1{
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+.cpx-2{
+    padding-right: 1.5rem;
+    padding-left: 1rem;
+}
+.cpx-3{
+    padding-right: 4rem;
+    padding-left: 4rem;
+}
+
+@media only screen and (min-width: 768px) {
+    .cpx-2{
+        padding-right: 8rem;
+        padding-left: 8rem;
+    }
+}
+
+/* my presets */
+
+
+
+/* header */
+
+.header{
+    /* background-color: coral; */
+    z-index: 10;
+    /* background-color: white; */
+    position: fixed;
+    width: 100%;
+    /* box-shadow: 0px 2px 14px -8px grey; */
+}
+
+.header-f-div{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+.f-div-svg{
+    max-width: 8rem;
+    display: flex;
+    max-height: 2rem;
+}
+.f-div-bur{
+    transition: all ease-in 0.2s;
+    cursor: pointer;
+    transform: scale(1.2);
+}.f-div-bur:hover{transform: scale(1.25);}
+
+
+/* ---- */
+
+/* body */
+
+body{
+    background-color: rgb(250, 250, 250);
+}
+
+.main-div{
+    overflow: hidden;
+}
+
+.main-img {
+    position: fixed;
+    z-index: -1;
+    max-width: 600%;
+    left: -585px;
+    filter: brightness(0.8);
+}
+
+.main-cnt{
+    padding: 1rem;
+    margin-top: 100vh;
+    background: whitesmoke;
+}
